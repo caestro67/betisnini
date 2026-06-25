@@ -1,0 +1,9 @@
+export interface Player {
+  id: string;
+  name: string;
+  wikiTitle: string;
+  aliases: string[];
+}
+
+export const BETIS_PLAYERS: Player[] = [
+];

@@ -1,0 +1,28 @@
+{
+  "global_stats": {
+    "summary": {
+      "gamesPlayed": 0,
+      "recordScore": 0,
+      "recordRounds": 0,
+      "totalGuesses": 0,
+      "correctGuesses": 0
+    }
+  },
+  "games": {
+    "game_1": {
+      "playerName": "Anónimo",
+      "score": 0,
+      "rounds": 0,
+      "timestamp": {
+        "$timestamp": true
+      }
+    }
+  },
+  "player_stats": {
+    "player_1": {
+      "name": "Jugador Prueba",
+      "correct": 0,
+      "incorrect": 0
+    }
+  }
+}
