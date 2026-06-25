@@ -874,7 +874,7 @@ export default function App() {
                 </button>
               </div>
             ) : (
-              <form onSubmit={handleGuessSubmit} className="flex gap-2">
+              <form onSubmit={handleGuessSubmit} className="flex flex-col sm:flex-row gap-2 w-full">
                 <input
                   type="text"
                   value={guess}
@@ -973,7 +973,7 @@ export default function App() {
                 />
                 ¿Quieres aparecer en el Top 20 global con tu nombre?
               </h3>
-              <div className="flex gap-2">
+              <div className="flex flex-col sm:flex-row gap-2 w-full">
                 <input
                   type="text"
                   placeholder="Tu nombre (opcional)"
