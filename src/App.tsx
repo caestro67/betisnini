@@ -32,6 +32,7 @@ import {
 } from "./stats";
 import * as htmlToImage from "html-to-image";
 import { motion } from "motion/react";
+import { Analytics } from "@vercel/analytics/react";
 
 const StickerPackLogo = ({ className = "" }: { className?: string }) => (
   <div
@@ -1058,6 +1059,7 @@ export default function App() {
           </div>
         )}
       </div>
+      <Analytics />
     </div>
   );
 }
